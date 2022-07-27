@@ -1,0 +1,19 @@
+{
+    "name": "lucascorreia/cursos",
+    "description": "Gerenciador de cursos",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lucascorreia\\Cursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucas",
+            "email": "lucasucb2020@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.12"
+    }
+}
